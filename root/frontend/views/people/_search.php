@@ -25,13 +25,13 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'phone') ?>
 
-    <?php // echo $form->field($model, 'mphone') ?>
+    <?php echo $form->field($model, 'mphone') ?>
 
-    <?php // echo $form->field($model, 'position') ?>
+    <?php  echo $form->field($model, 'position') ?>
 
-    <?php // echo $form->field($model, 'organizationid') ?>
+    <?php  echo $form->field($model, 'organizationid') ?>
 
-    <?php // echo $form->field($model, 'email') ?>
+    <?php  echo $form->field($model, 'email') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

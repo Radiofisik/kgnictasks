@@ -1,0 +1,1106 @@
+2015-04-21 10:50:10 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\People::organization.name' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('organization.na...')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseHtml.php(1886): yii\db\BaseActiveRecord->__get('organization.na...')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseHtml.php(1154): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\People), 'organization.na...')
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseHtml.php(1191): yii\helpers\BaseHtml::activeInput('text', Object(app\models\People), 'organization.na...', Array)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\ActiveField.php(358): yii\helpers\BaseHtml::activeTextInput(Object(app\models\People), 'organization.na...', Array)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\_form.php(27): yii\widgets\ActiveField->textInput()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, NULL)
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\create.php(19): yii\base\View->render('_form', Array)
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\PeopleController))
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('create', Array, Object(frontend\controllers\PeopleController))
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php(70): yii\base\Controller->render('create', Array)
+#15 [internal function]: frontend\controllers\PeopleController->actionCreate()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('people/create', Array)
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2015-04-21 10:50:10 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0npunb9c50e360sdidg7ovg4a0'
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    '_csrf' => 'fc2dbcb6c7d5e674a01eeed8cb24126e1d82b790eb9c2b6c833ce911744793a6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WwP22upIWmJQkWKZcTxtONVj3tJdvetQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8082/index.php?r=people/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0npunb9c50e360sdidg7ovg4a0; _identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; _csrf=fc2dbcb6c7d5e674a01eeed8cb24126e1d82b790eb9c2b6c833ce911744793a6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WwP22upIWmJQkWKZcTxtONVj3tJdvetQ%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '18053'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fcreate'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fcreate'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429613410.503
+    'REQUEST_TIME' => 1429613410
+]
+2015-04-21 10:52:38 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Attribute name must contain word characters only.' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseHtml.php:1933
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseHtml.php(1153): yii\helpers\BaseHtml::getInputName(Object(app\models\People), 'organization->n...')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseHtml.php(1191): yii\helpers\BaseHtml::activeInput('text', Object(app\models\People), 'organization->n...', Array)
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\ActiveField.php(358): yii\helpers\BaseHtml::activeTextInput(Object(app\models\People), 'organization->n...', Array)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\_form.php(27): yii\widgets\ActiveField->textInput()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, NULL)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\create.php(19): yii\base\View->render('_form', Array)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\PeopleController))
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('create', Array, Object(frontend\controllers\PeopleController))
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php(70): yii\base\Controller->render('create', Array)
+#13 [internal function]: frontend\controllers\PeopleController->actionCreate()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('people/create', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2015-04-21 10:52:38 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0npunb9c50e360sdidg7ovg4a0'
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    '_csrf' => 'fc2dbcb6c7d5e674a01eeed8cb24126e1d82b790eb9c2b6c833ce911744793a6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WwP22upIWmJQkWKZcTxtONVj3tJdvetQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0npunb9c50e360sdidg7ovg4a0; _identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; _csrf=fc2dbcb6c7d5e674a01eeed8cb24126e1d82b790eb9c2b6c833ce911744793a6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WwP22upIWmJQkWKZcTxtONVj3tJdvetQ%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '18075'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fcreate'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fcreate'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429613558.789
+    'REQUEST_TIME' => 1429613558
+]
+2015-04-21 14:36:19 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Attribute name must contain word characters only.' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseHtml.php:1933
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseHtml.php(1153): yii\helpers\BaseHtml::getInputName(Object(app\models\People), 'organization->n...')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseHtml.php(1191): yii\helpers\BaseHtml::activeInput('text', Object(app\models\People), 'organization->n...', Array)
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\ActiveField.php(358): yii\helpers\BaseHtml::activeTextInput(Object(app\models\People), 'organization->n...', Array)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\_form.php(27): yii\widgets\ActiveField->textInput()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, NULL)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\create.php(19): yii\base\View->render('_form', Array)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\PeopleController))
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('create', Array, Object(frontend\controllers\PeopleController))
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php(70): yii\base\Controller->render('create', Array)
+#13 [internal function]: frontend\controllers\PeopleController->actionCreate()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('people/create', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2015-04-21 14:36:19 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0npunb9c50e360sdidg7ovg4a0'
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    '_csrf' => 'fc2dbcb6c7d5e674a01eeed8cb24126e1d82b790eb9c2b6c833ce911744793a6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"WwP22upIWmJQkWKZcTxtONVj3tJdvetQ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=0npunb9c50e360sdidg7ovg4a0; _identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; _csrf=fc2dbcb6c7d5e674a01eeed8cb24126e1d82b790eb9c2b6c833ce911744793a6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WwP22upIWmJQkWKZcTxtONVj3tJdvetQ%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '21877'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fcreate'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fcreate'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429626979.24
+    'REQUEST_TIME' => 1429626979
+]
+2015-04-21 15:16:09 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:41
+2015-04-21 15:16:09 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/index'
+    'sort' => 'position'
+]
+
+$_COOKIE = [
+    '_csrf' => '54fda409153282a51a3b30c5b6569301bf05aaba502bde02764483272b18f259a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0l4A5Lfd3Oaaiyt2MgOyz73UBDyvpPjI\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=54fda409153282a51a3b30c5b6569301bf05aaba502bde02764483272b18f259a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220l4A5Lfd3Oaaiyt2MgOyz73UBDyvpPjI%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2671'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Findex&sort=position'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Findex&sort=position'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629369.168
+    'REQUEST_TIME' => 1429629369
+]
+2015-04-21 15:16:20 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:53
+2015-04-21 15:16:20 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Findex&sort=position'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=873u4qvoa98vluv2lfq07mqqh7; _csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2670'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fview&id=1'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fview&id=1'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629380.264
+    'REQUEST_TIME' => 1429629380
+]
+2015-04-21 15:16:26 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:89
+2015-04-21 15:16:25 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2676'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=1'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629385.935
+    'REQUEST_TIME' => 1429629385
+]
+2015-04-21 15:16:30 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:53
+2015-04-21 15:16:30 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Fupdate&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2677'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fview&id=1'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fview&id=1'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629390.708
+    'REQUEST_TIME' => 1429629390
+]
+2015-04-21 15:16:39 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:89
+2015-04-21 15:16:39 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2681'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=1'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629399.392
+    'REQUEST_TIME' => 1429629399
+]
+2015-04-21 15:16:42 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:41
+2015-04-21 15:16:41 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Fupdate&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2681'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629401.953
+    'REQUEST_TIME' => 1429629401
+]
+2015-04-21 15:16:47 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:70
+2015-04-21 15:16:47 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/create'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2681'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fcreate'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fcreate'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629407.072
+    'REQUEST_TIME' => 1429629407
+]
+2015-04-21 15:17:02 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:41
+2015-04-21 15:17:01 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2687'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629421.917
+    'REQUEST_TIME' => 1429629421
+]
+2015-04-21 15:17:19 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:70
+2015-04-21 15:17:18 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/create'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2689'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fcreate'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fcreate'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629438.933
+    'REQUEST_TIME' => 1429629438
+]
+2015-04-21 15:18:59 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:53
+2015-04-21 15:18:59 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/view'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2693'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fview&id=2'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fview&id=2'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629539.216
+    'REQUEST_TIME' => 1429629539
+]
+2015-04-21 15:19:14 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:41
+2015-04-21 15:19:14 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Fview&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2694'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629554.687
+    'REQUEST_TIME' => 1429629554
+]
+2015-04-21 15:19:34 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:41
+2015-04-21 15:19:33 [192.168.155.31][-][-][info][application] $_GET = [
+    'PeopleSearch' => [
+        'lastname' => 'ок'
+        'firstname' => ''
+        'middlename' => ''
+        'phone' => ''
+        'mphone' => ''
+        'position' => ''
+        'email' => ''
+    ]
+    'r' => 'people/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2695'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'PeopleSearch%5Blastname%5D=%D0%BE%D0%BA&PeopleSearch%5Bfirstname%5D=&PeopleSearch%5Bmiddlename%5D=&PeopleSearch%5Bphone%5D=&PeopleSearch%5Bmphone%5D=&PeopleSearch%5Bposition%5D=&PeopleSearch%5Bemail%5D=&r=people%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?PeopleSearch%5Blastname%5D=%D0%BE%D0%BA&PeopleSearch%5Bfirstname%5D=&PeopleSearch%5Bmiddlename%5D=&PeopleSearch%5Bphone%5D=&PeopleSearch%5Bmphone%5D=&PeopleSearch%5Bposition%5D=&PeopleSearch%5Bemail%5D=&r=people%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629573.991
+    'REQUEST_TIME' => 1429629573
+]
+2015-04-21 15:19:39 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:41
+2015-04-21 15:19:39 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Fview&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2696'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629579.64
+    'REQUEST_TIME' => 1429629579
+]
+2015-04-21 15:19:46 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:41
+2015-04-21 15:19:46 [192.168.155.31][-][-][info][application] $_GET = [
+    'PeopleSearch' => [
+        'lastname' => 'л'
+        'firstname' => ''
+        'middlename' => ''
+        'phone' => ''
+        'mphone' => ''
+        'position' => ''
+        'email' => ''
+    ]
+    'r' => 'people/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2697'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'PeopleSearch%5Blastname%5D=%D0%BB&PeopleSearch%5Bfirstname%5D=&PeopleSearch%5Bmiddlename%5D=&PeopleSearch%5Bphone%5D=&PeopleSearch%5Bmphone%5D=&PeopleSearch%5Bposition%5D=&PeopleSearch%5Bemail%5D=&r=people%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?PeopleSearch%5Blastname%5D=%D0%BB&PeopleSearch%5Bfirstname%5D=&PeopleSearch%5Bmiddlename%5D=&PeopleSearch%5Bphone%5D=&PeopleSearch%5Bmphone%5D=&PeopleSearch%5Bposition%5D=&PeopleSearch%5Bemail%5D=&r=people%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629586.206
+    'REQUEST_TIME' => 1429629586
+]
+2015-04-21 15:20:05 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:41
+2015-04-21 15:20:05 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/index'
+    'PeopleSearch' => [
+        'lastname' => 'л'
+        'firstname' => ''
+        'middlename' => ''
+        'phone' => ''
+        'mphone' => ''
+        'position' => ''
+        'email' => ''
+    ]
+    'sort' => 'lastname'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?PeopleSearch%5Blastname%5D=%D0%BB&PeopleSearch%5Bfirstname%5D=&PeopleSearch%5Bmiddlename%5D=&PeopleSearch%5Bphone%5D=&PeopleSearch%5Bmphone%5D=&PeopleSearch%5Bposition%5D=&PeopleSearch%5Bemail%5D=&r=people%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2700'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Findex&PeopleSearch%5Blastname%5D=%D0%BB&PeopleSearch%5Bfirstname%5D=&PeopleSearch%5Bmiddlename%5D=&PeopleSearch%5Bphone%5D=&PeopleSearch%5Bmphone%5D=&PeopleSearch%5Bposition%5D=&PeopleSearch%5Bemail%5D=&sort=lastname'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Findex&PeopleSearch%5Blastname%5D=%D0%BB&PeopleSearch%5Bfirstname%5D=&PeopleSearch%5Bmiddlename%5D=&PeopleSearch%5Bphone%5D=&PeopleSearch%5Bmphone%5D=&PeopleSearch%5Bposition%5D=&PeopleSearch%5Bemail%5D=&sort=lastname'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629605.218
+    'REQUEST_TIME' => 1429629605
+]
+2015-04-21 15:20:06 [192.168.155.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:73
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:41
+2015-04-21 15:20:06 [192.168.155.31][-][-][info][application] $_GET = [
+    'r' => 'people/index'
+    'PeopleSearch' => [
+        'lastname' => 'л'
+        'firstname' => ''
+        'middlename' => ''
+        'phone' => ''
+        'mphone' => ''
+        'position' => ''
+        'email' => ''
+    ]
+    'sort' => 'firstname'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => '873u4qvoa98vluv2lfq07mqqh7'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Findex&PeopleSearch%5Blastname%5D=%D0%BB&PeopleSearch%5Bfirstname%5D=&PeopleSearch%5Bmiddlename%5D=&PeopleSearch%5Bphone%5D=&PeopleSearch%5Bmphone%5D=&PeopleSearch%5Bposition%5D=&PeopleSearch%5Bemail%5D=&sort=lastname'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=873u4qvoa98vluv2lfq07mqqh7'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '2700'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Findex&PeopleSearch%5Blastname%5D=%D0%BB&PeopleSearch%5Bfirstname%5D=&PeopleSearch%5Bmiddlename%5D=&PeopleSearch%5Bphone%5D=&PeopleSearch%5Bmphone%5D=&PeopleSearch%5Bposition%5D=&PeopleSearch%5Bemail%5D=&sort=firstname'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Findex&PeopleSearch%5Blastname%5D=%D0%BB&PeopleSearch%5Bfirstname%5D=&PeopleSearch%5Bmiddlename%5D=&PeopleSearch%5Bphone%5D=&PeopleSearch%5Bmphone%5D=&PeopleSearch%5Bposition%5D=&PeopleSearch%5Bemail%5D=&sort=firstname'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429629606.829
+    'REQUEST_TIME' => 1429629606
+]
