@@ -80,6 +80,12 @@ class People extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Organizations::className(), ['id' => 'organizationid']);
     }
+	
+	public function getFio()
+	{
+		return $this->firstname.' '.$this->middlename.' '.$this->lastname;
+	}
+	
 	public function getOrganizationname()
 	{
 		return $this->getOrganization()->name;

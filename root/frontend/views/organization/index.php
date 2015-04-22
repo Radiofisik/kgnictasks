@@ -28,7 +28,15 @@ $this->params['breadcrumbs'][] = $this->title;
             'fullname:ntext',
             'name',
             'reqid',
-            'directorid',
+		
+            [
+			'attribute' => 'Директор',
+            'format' => 'html',
+            'value' => 'director.fio'
+			],
+			
+			
+			//'director.firstname'.'director.middlename'],
 			[
             'attribute' => 'Сотрудники',
             'format' => 'html',

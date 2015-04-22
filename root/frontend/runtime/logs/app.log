@@ -6369,3 +6369,2116 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1429709949.336
     'REQUEST_TIME' => 1429709949
 ]
+2015-04-22 14:10:24 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Organizations::people' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('people')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('people')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people', NULL)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people.name')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(45): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 14:10:23 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '7774'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429711823.96
+    'REQUEST_TIME' => 1429711823
+]
+2015-04-22 14:14:22 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Organizations::people' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('people')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('people')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people', NULL)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people.director', NULL)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people.director...')
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(45): yii\base\Widget::widget(Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#22 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#23 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#30 {main}
+2015-04-22 14:14:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '7801'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429712062.427
+    'REQUEST_TIME' => 1429712062
+]
+2015-04-22 14:14:31 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Organizations::people' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('people')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('people')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people', NULL)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people.director')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(45): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 14:14:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '7803'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429712071.862
+    'REQUEST_TIME' => 1429712071
+]
+2015-04-22 14:14:47 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\People::name' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('name')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('name')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'director.name')
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(45): yii\base\Widget::widget(Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#21 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#22 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#28 {main}
+2015-04-22 14:14:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '7809'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429712086.905
+    'REQUEST_TIME' => 1429712086
+]
+2015-04-22 14:16:27 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\People::firstnamedirector' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('firstnamedirect...')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('firstnamedirect...')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'director.firstn...', NULL)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'director.firstn...')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(45): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 14:16:27 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '7830'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429712187.437
+    'REQUEST_TIME' => 1429712187
+]
+2015-04-22 14:16:41 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\People::firstnamedirector' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('firstnamedirect...')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('firstnamedirect...')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'director.firstn...', NULL)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'director.firstn...')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(45): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 14:16:41 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '7832'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429712201.796
+    'REQUEST_TIME' => 1429712201
+]
+2015-04-22 14:17:07 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\People::firstnamedirector' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('firstnamedirect...')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('firstnamedirect...')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'director.firstn...', NULL)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'director.firstn...')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(45): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 14:17:07 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '7839'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429712227.329
+    'REQUEST_TIME' => 1429712227
+]
+2015-04-22 14:19:38 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '[', expecting ']'' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php:41
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-22 14:19:38 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '7861'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429712378.574
+    'REQUEST_TIME' => 1429712378
+]
+2015-04-22 14:28:53 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant directorfio - assumed 'directorfio'' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php:35
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(35): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'C:\Users\radiof...', 35, Array)
+#1 [internal function]: yii\base\View->{closure}(Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(55): yii\base\Widget::widget(Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#21 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#22 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#28 {main}
+2015-04-22 14:28:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '7921'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429712933.374
+    'REQUEST_TIME' => 1429712933
+]
+2015-04-22 14:45:35 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant directorfio - assumed 'directorfio'' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php:35
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(35): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'C:\Users\radiof...', 35, Array)
+#1 [internal function]: yii\base\View->{closure}(Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(55): yii\base\Widget::widget(Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#21 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#22 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#28 {main}
+2015-04-22 14:45:35 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8030'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429713935.435
+    'REQUEST_TIME' => 1429713935
+]
+2015-04-22 14:46:14 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\View::directorfio' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(35): yii\base\Component->__get('directorfio')
+#1 [internal function]: yii\base\View->{closure}(Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(55): yii\base\Widget::widget(Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#21 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#22 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#28 {main}
+2015-04-22 14:46:14 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8036'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429713974.721
+    'REQUEST_TIME' => 1429713974
+]
+2015-04-22 14:46:54 [::1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\View::getDirectorfio()' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:282
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(35): yii\base\Component->__call('getDirectorfio', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(35): yii\web\View->getDirectorfio()
+#2 [internal function]: yii\base\View->{closure}(Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(55): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 14:46:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8041'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429714013.868
+    'REQUEST_TIME' => 1429714013
+]
+2015-04-22 14:47:33 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getDirectorfio() on a non-object' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-22 14:47:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8050'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429714053.569
+    'REQUEST_TIME' => 1429714053
+]
+2015-04-22 14:48:18 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\db\ActiveQuery::firstname' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php(67): yii\base\Component->__get('firstname')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(35): app\models\Organizations->getDirectorfio()
+#2 [internal function]: yii\base\View->{closure}(Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(55): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 14:48:18 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8056'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429714098.648
+    'REQUEST_TIME' => 1429714098
+]
+2015-04-22 14:52:46 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\db\ActiveQuery::fio' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php(67): yii\base\Component->__get('fio')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(35): app\models\Organizations->getDirectorfio()
+#2 [internal function]: yii\base\View->{closure}(Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(55): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 14:52:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8093'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429714366.29
+    'REQUEST_TIME' => 1429714366
+]
+2015-04-22 14:53:04 [::1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\ActiveQuery::getFio()' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:282
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php(67): yii\base\Component->__call('getFio', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php(67): yii\db\ActiveQuery->getFio()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(35): app\models\Organizations->getDirectorfio()
+#3 [internal function]: yii\base\View->{closure}(Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(55): yii\base\Widget::widget(Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#22 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#23 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#30 {main}
+2015-04-22 14:53:04 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8096'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429714384.267
+    'REQUEST_TIME' => 1429714384
+]
+2015-04-22 14:56:15 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php:67
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php(67): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\Users\radiof...', 67, Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(35): app\models\Organizations->getDirectorfio()
+#2 [internal function]: yii\base\View->{closure}(Object(app\models\Organizations), 6, 1, Object(yii\grid\DataColumn))
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(app\models\Organizations), 6, 1, Object(yii\grid\DataColumn))
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 6, 1)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 6, 1)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 6, 1)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 6, 1)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(55): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 14:56:14 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8121'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429714574.953
+    'REQUEST_TIME' => 1429714574
+]
+2015-04-22 14:56:35 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\db\ActiveQuery::fio' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php(67): yii\base\Component->__get('fio')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(35): app\models\Organizations->getDirectorfio()
+#2 [internal function]: yii\base\View->{closure}(Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(55): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 14:56:35 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8124'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429714595.799
+    'REQUEST_TIME' => 1429714595
+]
+2015-04-22 15:00:31 [::1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\ActiveQuery::getFio()' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:282
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php(67): yii\base\Component->__call('getFio', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php(67): yii\db\ActiveQuery->getFio()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(35): app\models\Organizations->getDirectorfio()
+#3 [internal function]: yii\base\View->{closure}(Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(190): call_user_func(Object(Closure), Object(app\models\Organizations), 5, 0, Object(yii\grid\DataColumn))
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(55): yii\base\Widget::widget(Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#22 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#23 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#30 {main}
+2015-04-22 15:00:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8145'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429714831.61
+    'REQUEST_TIME' => 1429714831
+]
+2015-04-22 15:02:55 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Organizations::people' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('people')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('people')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people', NULL)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(188): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people.fio')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(56): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 15:02:55 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8162'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429714975.392
+    'REQUEST_TIME' => 1429714975
+]
+2015-04-22 15:03:09 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Organizations::people' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('people')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('people')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people', NULL)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(188): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people.firstnam...')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(56): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 15:03:09 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8167'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429714989.874
+    'REQUEST_TIME' => 1429714989
+]
+2015-04-22 15:03:49 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '*', expecting ']'' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php:39
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-22 15:03:49 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8178'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429715029.465
+    'REQUEST_TIME' => 1429715029
+]
+2015-04-22 15:04:39 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Organizations::people' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('people')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('people')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people', NULL)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people.fio')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(57): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 15:04:39 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8187'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429715079.112
+    'REQUEST_TIME' => 1429715079
+]
+2015-04-22 15:04:52 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Organizations::people' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('people')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('people')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people', NULL)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'people.firstnam...')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(57): yii\base\Widget::widget(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#22 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+2015-04-22 15:04:52 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8194'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429715092.859
+    'REQUEST_TIME' => 1429715092
+]
+2015-04-22 15:12:08 [::1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\ActiveQuery::getFio()' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:282
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php(67): yii\base\Component->__call('getFio', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php(67): yii\db\ActiveQuery->getFio()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php(130): app\models\Organizations->getDirectorfio()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('directorfio')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('directorfio')
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'directorfio')
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#14 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(53): yii\base\Widget::widget(Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#22 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#24 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#29 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#30 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#31 {main}
+2015-04-22 15:12:08 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8295'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429715528.436
+    'REQUEST_TIME' => 1429715528
+]
+2015-04-22 15:12:57 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\db\ActiveQuery::fio' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php(67): yii\base\Component->__get('fio')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php(130): app\models\Organizations->getDirectorfio()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('directorfio')
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get('directorfio')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(193): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Organizations), 'directorfio')
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue(Object(app\models\Organizations), 5, 0)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Organizations), 5, 0)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell(Object(app\models\Organizations), 5, 0)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow(Object(app\models\Organizations), 5, 0)
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection('{items}')
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(53): yii\base\Widget::widget(Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\OrganizationController))
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\OrganizationController))
+#22 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render('index', Array)
+#23 [internal function]: frontend\controllers\OrganizationController->actionIndex()
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/in...', Array)
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#30 {main}
+2015-04-22 15:12:56 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8308'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429715576.893
+    'REQUEST_TIME' => 1429715576
+]
+2015-04-22 15:13:44 [192.168.155.31][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:75
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php:41
+2015-04-22 15:13:43 [192.168.155.31][1][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => 'k4c6o2tq962p9qcsit67nvb3r6'
+    '_identity' => '8d8eb0955c7d82e20427cc98bafa4e2acc92bcbb6ec2b7fa473abb89f716412ca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1XbN_vZrWOAtE6vcq1hVEjS58NJBHRew\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Forglist&orgid=7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=k4c6o2tq962p9qcsit67nvb3r6; _identity=8d8eb0955c7d82e20427cc98bafa4e2acc92bcbb6ec2b7fa473abb89f716412ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221XbN_vZrWOAtE6vcq1hVEjS58NJBHRew%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '32344'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429715623.781
+    'REQUEST_TIME' => 1429715623
+]
+2015-04-22 15:13:51 [192.168.155.31][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:75
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:57
+2015-04-22 15:13:51 [192.168.155.31][1][-][info][application] $_GET = [
+    'r' => 'people/orglist'
+    'orgid' => '5'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => 'k4c6o2tq962p9qcsit67nvb3r6'
+    '_identity' => '8d8eb0955c7d82e20427cc98bafa4e2acc92bcbb6ec2b7fa473abb89f716412ca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1XbN_vZrWOAtE6vcq1hVEjS58NJBHRew\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=organization%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=k4c6o2tq962p9qcsit67nvb3r6; _identity=8d8eb0955c7d82e20427cc98bafa4e2acc92bcbb6ec2b7fa473abb89f716412ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221XbN_vZrWOAtE6vcq1hVEjS58NJBHRew%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '32343'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Forglist&orgid=5'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Forglist&orgid=5'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429715631.522
+    'REQUEST_TIME' => 1429715631
+]
+2015-04-22 15:14:03 [192.168.155.31][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.155.31
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\layouts\main.php:75
+    in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php:41
+2015-04-22 15:14:03 [192.168.155.31][1][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22\";}'
+    'PHPSESSID' => 'k4c6o2tq962p9qcsit67nvb3r6'
+    '_identity' => '8d8eb0955c7d82e20427cc98bafa4e2acc92bcbb6ec2b7fa473abb89f716412ca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"1XbN_vZrWOAtE6vcq1hVEjS58NJBHRew\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.155.15:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.155.15:8082/frontend/web/index.php?r=people%2Forglist&orgid=7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=452d05461a78dabf4cb4c4a419acfbc9f080bbdc0fe95e639b05560ef9237905a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dpz3UKVPMEIXMcKULLE-eHSpvAoufj22%22%3B%7D; PHPSESSID=k4c6o2tq962p9qcsit67nvb3r6; _identity=8d8eb0955c7d82e20427cc98bafa4e2acc92bcbb6ec2b7fa473abb89f716412ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%221XbN_vZrWOAtE6vcq1hVEjS58NJBHRew%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => '192.168.155.15'
+    'SERVER_ADDR' => '192.168.155.15'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '192.168.155.31'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '32372'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429715643.178
+    'REQUEST_TIME' => 1429715643
+]

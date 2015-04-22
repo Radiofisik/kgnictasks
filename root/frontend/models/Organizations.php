@@ -61,6 +61,7 @@ class Organizations extends \yii\db\ActiveRecord
     {
         return $this->hasOne(People::className(), ['id' => 'directorid']);
     }
+	
 
     /**
      * @return \yii\db\ActiveQuery
