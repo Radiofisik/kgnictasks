@@ -12,6 +12,8 @@ use app\models\People;
  */
 class PeopleSearch extends People
 {
+	
+	public $organizationname;
     /**
      * @inheritdoc
      */
@@ -19,7 +21,7 @@ class PeopleSearch extends People
     {
         return [
             [['id', 'organizationid'], 'integer'],
-            [['firstname', 'lastname', 'middlename', 'phone', 'mphone', 'position', 'email'], 'safe'],
+            [['firstname', 'lastname', 'middlename', 'phone', 'mphone', 'position', 'email', 'organizationname'], 'safe'],
         ];
     }
 
@@ -42,10 +44,15 @@ class PeopleSearch extends People
     public function search($params)
     {
         $query = People::find();
-
+		$query->joinWith(['organization']);
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
+		
+		$dataProvider->sort->attributes['organizationname'] = [
+        'asc' => ['organizations.name' => SORT_ASC],
+        'desc' => ['organizations.name' => SORT_DESC],
+    ];
 
         $this->load($params);
 
@@ -57,7 +64,7 @@ class PeopleSearch extends People
 
         $query->andFilterWhere([
             'id' => $this->id,
-            'organizationid' => $this->organizationid,
+          //  'organizationid' => 5,//$this->organization->name,
         ]);
 
         $query->andFilterWhere(['like', 'firstname', $this->firstname])
@@ -66,7 +73,8 @@ class PeopleSearch extends People
             ->andFilterWhere(['like', 'phone', $this->phone])
             ->andFilterWhere(['like', 'mphone', $this->mphone])
             ->andFilterWhere(['like', 'position', $this->position])
-            ->andFilterWhere(['like', 'email', $this->email]);
+            ->andFilterWhere(['like', 'email', $this->email])
+			->andFilterWhere(['like', 'organizations.name', $this->organizationname]);
 
         return $dataProvider;
     }

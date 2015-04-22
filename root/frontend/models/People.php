@@ -58,18 +58,19 @@ class People extends \yii\db\ActiveRecord
             'phone' => 'Телефон',
             'mphone' => 'Мобильный телефон',
             'position' => 'Должность',
-            'organizationid' => 'Organizationid',
+            'organizationname' => 'Организация',
             'email' => 'Email',
+			
         ];
     }
 
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getOrganizations()
+  /*  public function getOrganizations()
     {
         return $this->hasMany(Organizations::className(), ['directorid' => 'id']);
-    }
+    }*/
 
     /**
      * @return \yii\db\ActiveQuery
@@ -78,6 +79,10 @@ class People extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Organizations::className(), ['id' => 'organizationid']);
     }
+	public function getOrganizationname()
+	{
+		return $this->getOrganization()->name;
+	}
     
    
 }
