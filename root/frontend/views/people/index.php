@@ -16,7 +16,14 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php  //echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Создать контакт', ['create'], ['class' => 'btn btn-success']) ?>
+        <?php 
+        if(!isset($searchModel->orgid)){
+          echo  Html::a('Создать контакт', ['create'], ['class' => 'btn btn-success']);
+        }
+        else {
+           echo  Html::a('Создать контакт', ['createorgpeople','orgid'=>$searchModel->orgid], ['class' => 'btn btn-success']); 
+        }
+        ?>
     </p>
 <?php \yii\widgets\Pjax::begin(); ?>
     <?= GridView::widget([

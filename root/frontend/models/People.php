@@ -59,6 +59,7 @@ class People extends \yii\db\ActiveRecord
             'mphone' => 'Мобильный телефон',
             'position' => 'Должность',
             'organizationname' => 'Организация',
+			'organizationid' => 'Организация',
             'email' => 'Email',
 			
         ];

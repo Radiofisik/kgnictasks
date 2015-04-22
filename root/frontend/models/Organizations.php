@@ -33,7 +33,7 @@ class Organizations extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['fullname', 'name', 'reqid', 'directorid'], 'required'],
+            [['fullname', 'name'], 'required'],
             [['fullname'], 'string'],
             [['reqid', 'directorid'], 'integer'],
             [['name'], 'string', 'max' => 1000]
@@ -49,8 +49,8 @@ class Organizations extends \yii\db\ActiveRecord
             'id' => 'ID',
             'fullname' => 'Полное намименование организации',
             'name' => 'Имя организации',
-            'reqid' => 'Reqid',
-            'directorid' => 'Directorid',
+            'reqid' => 'Реквизиты',
+            'directorid' => 'Директор',
         ];
     }
 

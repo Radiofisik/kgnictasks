@@ -40,6 +40,36 @@ class PeopleController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
+	
+	    /**
+     * Lists all People of organization $orgid.
+     * @return mixed
+     */
+    public function actionOrglist($orgid)
+    {
+        $searchModel = new PeopleSearch();
+		$searchModel->orgid=$orgid;
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        return $this->render('index', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+	
+	public function actionCreateorgpeople($orgid)
+	{
+		$model = new People();
+
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['view', 'id' => $model->id]);
+        } else {
+		$model->organizationid=$orgid;
+            return $this->render('create', [
+                'model' => $model,
+            ]);
+        }
+	}
 
     /**
      * Displays a single People model.

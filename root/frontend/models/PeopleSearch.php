@@ -14,6 +14,7 @@ class PeopleSearch extends People
 {
 	
 	public $organizationname;
+        public $orgid;
     /**
      * @inheritdoc
      */
@@ -74,7 +75,8 @@ class PeopleSearch extends People
             ->andFilterWhere(['like', 'mphone', $this->mphone])
             ->andFilterWhere(['like', 'position', $this->position])
             ->andFilterWhere(['like', 'email', $this->email])
-			->andFilterWhere(['like', 'organizations.name', $this->organizationname]);
+            ->andFilterWhere(['like', 'organizations.name', $this->organizationname])
+            ->andFilterWhere(['like', 'organizationid', $this->orgid]);
 
         return $dataProvider;
     }
