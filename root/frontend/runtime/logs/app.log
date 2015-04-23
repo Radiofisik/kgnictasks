@@ -8482,3 +8482,675 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1429715643.178
     'REQUEST_TIME' => 1429715643
 ]
+2015-04-23 09:25:28 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\_form.php:31
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-23 09:25:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '6990'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=3'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=3'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429781128.253
+    'REQUEST_TIME' => 1429781128
+]
+2015-04-23 09:25:46 [::1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\widgets\ActiveForm::checkBox()' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:282
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\_form.php(31): yii\base\Component->__call('checkBox', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\_form.php(31): yii\widgets\ActiveForm->checkBox(Object(app\models\People), 'isdirector')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, NULL)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\update.php(19): yii\base\View->render('_form', Array)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\PeopleController))
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('update', Array, Object(frontend\controllers\PeopleController))
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php(119): yii\base\Controller->render('update', Array)
+#11 [internal function]: frontend\controllers\PeopleController->actionUpdate('3')
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('people/update', Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+2015-04-23 09:25:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '6998'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=3'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=3'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429781146.659
+    'REQUEST_TIME' => 1429781146
+]
+2015-04-23 09:29:39 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\People::isdirector' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('isdirector')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseHtml.php(1886): yii\db\BaseActiveRecord->__get('isdirector')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseHtml.php(1347): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\People), 'isdirector')
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\ActiveField.php(524): yii\helpers\BaseHtml::activeCheckbox(Object(app\models\People), 'isdirector', Array)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\_form.php(31): yii\widgets\ActiveField->checkbox()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, NULL)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\people\update.php(19): yii\base\View->render('_form', Array)
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\PeopleController))
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('update', Array, Object(frontend\controllers\PeopleController))
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php(119): yii\base\Controller->render('update', Array)
+#14 [internal function]: frontend\controllers\PeopleController->actionUpdate('3')
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('people/update', Array)
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#21 {main}
+2015-04-23 09:29:39 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '7427'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=3'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=3'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429781379.75
+    'REQUEST_TIME' => 1429781379
+]
+2015-04-23 09:36:46 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Using $this when not in object context' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\People.php:97
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-23 09:36:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '7496'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=3'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=3'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429781806.443
+    'REQUEST_TIME' => 1429781806
+]
+2015-04-23 10:35:10 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Declaration of app\models\People::save() must be compatible with yii\db\ActiveRecordInterface::save($runValidation = true, $attributeNames = NULL)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\People.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-23 10:35:10 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '3'
+]
+
+$_POST = [
+    '_csrf' => 'R2d0THF3N0gOEDoTQzYEAHIuOBkGFlEqBhM5H0Idfxk/N1klPz9vJg=='
+    'People' => [
+        'firstname' => 'Сергей'
+        'lastname' => 'Воронков'
+        'middlename' => 'Александрович'
+        'phone' => '992286'
+        'mphone' => '89217101108'
+        'position' => 'Директор'
+        'organizationid' => '5'
+        'email' => 'kgnic@kanet.ru'
+        'isdirector' => '1'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '539'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8082/frontend/web/index.php?r=people%2Fupdate&id=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8222'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=3'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=3'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429785310.614
+    'REQUEST_TIME' => 1429785310
+]
+2015-04-23 10:39:13 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '='' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\People.php:108
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-04-23 10:39:13 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '8272'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=3'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=3'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429785553.05
+    'REQUEST_TIME' => 1429785553
+]
+2015-04-23 13:39:13 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')'' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php:116
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(563): ::class_exists('???')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('???')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('???')
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('???', '???')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest('???')
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2015-04-23 13:39:12 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8082/frontend/web/index.php?r=people%2Fview&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '51215'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=2'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429796352.758
+    'REQUEST_TIME' => 1429796352
+]
+2015-04-23 13:48:51 [::1][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of app\models\People::load() should be compatible with yii\base\Model::load($data, $formName = NULL)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\People.php:125
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php(130): app\models\Organizations->getDirector()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(190): yii\db\BaseActiveRecord->__get()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(185): yii\helpers\BaseArrayHelper::getValue()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(188): yii\helpers\BaseArrayHelper::getValue()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\DataColumn.php(204): yii\grid\DataColumn->getDataCellValue()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\Column.php(108): yii\grid\DataColumn->renderDataCellContent()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(455): yii\grid\Column->renderDataCell()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(424): yii\grid\GridView->renderTableRow()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(295): yii\grid\GridView->renderTableBody()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(149): yii\grid\GridView->renderItems()
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(264): yii\widgets\BaseListView->renderSection()
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection()
+#13 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): yii\widgets\BaseListView->yii\widgets\{closure}()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\widgets\BaseListView.php(129): ::preg_replace_callback()
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\grid\GridView.php(239): yii\widgets\BaseListView->run()
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(96): yii\grid\GridView->run()
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\organization\index.php(53): yii\base\Widget::widget()
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#20 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#21 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#22 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\OrganizationController.php(41): yii\base\Controller->render()
+#23 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\OrganizationController->actionIndex()
+#24 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#25 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#26 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#27 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#28 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#29 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#30 {main}
+2015-04-23 13:48:50 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8082/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '51290'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429796930.336
+    'REQUEST_TIME' => 1429796930
+]
+2015-04-23 13:51:59 [::1][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of app\models\People::load() should be compatible with yii\base\Model::load($data, $formName = NULL)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\People.php:24
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php(147): yii\BaseYii::autoload()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\PeopleController.php(112): frontend\controllers\PeopleController->findModel()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\PeopleController->actionUpdate()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-04-23 13:51:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8082/frontend/web/index.php?r=people%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '51466'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=1'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429797119.225
+    'REQUEST_TIME' => 1429797119
+]
+2015-04-23 14:03:10 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: People' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\People.php:114
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\PeopleController->actionUpdate('???')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}('???', '???')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('???')
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('???', '???')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('???', '???')
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest('???')
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2015-04-23 14:03:09 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+    'XDEBUG_SESSION' => 'netbeans-xdebug'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8082/frontend/web/index.php?r=people%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02; XDEBUG_SESSION=netbeans-xdebug'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '51596'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=1'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429797789.701
+    'REQUEST_TIME' => 1429797789
+]
+2015-04-23 14:03:59 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: People' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\People.php:115
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\PeopleController->actionUpdate('???')
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}('???', '???')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('???')
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('???', '???')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('???', '???')
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest('???')
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2015-04-23 14:03:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'people/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+    'XDEBUG_SESSION' => 'netbeans-xdebug'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02; XDEBUG_SESSION=netbeans-xdebug'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '51604'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=people%2Fupdate&id=1'
+    'REQUEST_URI' => '/frontend/web/index.php?r=people%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429797839.114
+    'REQUEST_TIME' => 1429797839
+]

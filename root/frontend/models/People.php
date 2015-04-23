@@ -22,6 +22,7 @@ use Yii;
  */
 class People extends \yii\db\ActiveRecord
 {
+
     /**
      * @inheritdoc
      */
@@ -61,6 +62,7 @@ class People extends \yii\db\ActiveRecord
             'organizationname' => 'Организация',
 			'organizationid' => 'Организация',
             'email' => 'Email',
+			'isdirector'=>'директор'
 			
         ];
     }
@@ -68,10 +70,10 @@ class People extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-  /*  public function getOrganizations()
+    public function getOrganizations()
     {
         return $this->hasMany(Organizations::className(), ['directorid' => 'id']);
-    }*/
+    }
 
     /**
      * @return \yii\db\ActiveQuery
@@ -91,5 +93,27 @@ class People extends \yii\db\ActiveRecord
 		return $this->getOrganization()->name;
 	}
     
-   
+	public function getIsdirector()
+	{
+        //     xdebug_break(); 
+        	if($this->getOrganizations()->count()>0) return true;
+                else return false;
+	}
+        public function setIsdirector($c)
+        {
+                $org=Organizations::findOne($this->organizationid);
+                if($c){$org->directorid=$this->id;}
+                else {$org->directorid=0;}
+                $org->save();
+        }
+       
+        public function load($data, $formName = NULL)
+        {
+            if(isset($data['People']['isdirector']))
+            {
+                $this->setIsdirector($data['People']['isdirector']);
+            }
+            return parent::load($data, $formName = NULL);
+        }
+    
 }

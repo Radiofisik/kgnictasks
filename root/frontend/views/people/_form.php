@@ -24,10 +24,11 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'position')->textInput(['maxlength' => 1000]) ?>
 
-    <?= $form->field($model, 'organizationid')->dropDownList(yii\helpers\ArrayHelper::map(\app\models\Organizations::find()->all(),'id','name'))
-         ?>
+    <?= $form->field($model, 'organizationid')->dropDownList(yii\helpers\ArrayHelper::map(\app\models\Organizations::find()->all(),'id','name'))?>
 
     <?= $form->field($model, 'email')->textInput(['maxlength' => 200]) ?>
+	
+	 <?= $form->field($model, 'isdirector')->checkBox() ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Обновить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
