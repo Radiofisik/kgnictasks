@@ -9154,3 +9154,1367 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1429797839.114
     'REQUEST_TIME' => 1429797839
 ]
+2015-04-23 22:31:12 [::1][-][u0rm2hq8eif72pqtk6of3k30a5][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '.'' in xdebug://debug-eval:1
+Stack trace:
+#0 {main}
+2015-04-23 22:09:23 [::1][-][u0rm2hq8eif72pqtk6of3k30a5][info][application] $_GET = [
+    'r' => 'organization/index'
+]
+
+$_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => 'u0rm2hq8eif72pqtk6of3k30a5'
+    '_csrf' => 'd506e39e15bcb7cd210ea0edd63072b625073f04f3eafb854609644180dbe7fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"y1kojYq8gH4c0oIi0-tPiOi7d-nW_0cy\";}'
+    'XDEBUG_SESSION' => 'netbeans-xdebug'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8082/frontend/web/index.php?XDEBUG_SESSION_START=netbeans-xdebug'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=u0rm2hq8eif72pqtk6of3k30a5; _csrf=d506e39e15bcb7cd210ea0edd63072b625073f04f3eafb854609644180dbe7fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22y1kojYq8gH4c0oIi0-tPiOi7d-nW_0cy%22%3B%7D; XDEBUG_SESSION=netbeans-xdebug'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '64085'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2Findex'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2Findex'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429826963.79
+    'REQUEST_TIME' => 1429826963
+]
+2015-04-25 19:43:36 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '.', expecting ']'' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:34
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 19:43:35 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '60229'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429991015.661
+    'REQUEST_TIME' => 1429991015
+]
+2015-04-25 20:33:57 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'hi' (T_STRING)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:27
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 20:33:57 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61165'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994036.942
+    'REQUEST_TIME' => 1429994036
+]
+2015-04-25 20:34:46 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:57
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 20:34:46 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61168'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994085.807
+    'REQUEST_TIME' => 1429994085
+]
+2015-04-25 20:35:20 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:57
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 20:35:20 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61171'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994120.604
+    'REQUEST_TIME' => 1429994120
+]
+2015-04-25 20:36:24 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:57
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 20:36:23 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61178'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994183.787
+    'REQUEST_TIME' => 1429994183
+]
+2015-04-25 20:37:44 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ','' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:28
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 20:37:44 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61185'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994264.624
+    'REQUEST_TIME' => 1429994264
+]
+2015-04-25 20:40:05 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:72
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 20:40:05 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61259'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994405.361
+    'REQUEST_TIME' => 1429994405
+]
+2015-04-25 20:40:25 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:72
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 20:40:25 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61262'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994424.99
+    'REQUEST_TIME' => 1429994424
+]
+2015-04-25 20:41:57 [::1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\web\JsExpression::__construct(), called in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php on line 25 and defined' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\JsExpression.php:34
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-04-25 20:41:57 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61270'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994516.84
+    'REQUEST_TIME' => 1429994516
+]
+2015-04-25 20:42:00 [::1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\web\JsExpression::__construct(), called in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php on line 25 and defined' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\JsExpression.php:34
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-04-25 20:41:59 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61273'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994519.7
+    'REQUEST_TIME' => 1429994519
+]
+2015-04-25 20:42:01 [::1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\web\JsExpression::__construct(), called in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php on line 25 and defined' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\JsExpression.php:34
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-04-25 20:42:01 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61276'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994520.965
+    'REQUEST_TIME' => 1429994520
+]
+2015-04-25 20:43:35 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ','' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:25
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 20:43:35 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61280'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994615.132
+    'REQUEST_TIME' => 1429994615
+]
+2015-04-25 20:45:04 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'hi' (T_STRING)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:25
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 20:45:04 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61308'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994704.508
+    'REQUEST_TIME' => 1429994704
+]
+2015-04-25 20:45:16 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'hi' (T_STRING)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:25
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 20:45:16 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61311'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994715.789
+    'REQUEST_TIME' => 1429994715
+]
+2015-04-25 20:45:20 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'hi' (T_STRING)' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:25
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-04-25 20:45:20 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61313'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429994720.164
+    'REQUEST_TIME' => 1429994720
+]
+2015-04-25 20:57:27 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii2fullcalendar\models\Event' not found' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:17
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-04-25 20:57:27 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61557'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429995447.353
+    'REQUEST_TIME' => 1429995447
+]
+2015-04-25 21:05:27 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: talma\widgets\FullCalendar::events' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('events', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(talma\widgets\FullCalendar), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('talma\widgets\F...', Array, Array)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('talma\widgets\F...', Array, Array)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(95): yii\BaseYii::createObject(Array)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php(53): yii\base\Widget::widget(Array)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\SiteController))
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2015-04-25 21:05:26 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61610'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429995926.661
+    'REQUEST_TIME' => 1429995926
+]
+2015-04-25 21:08:19 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: talma\widgets\FullCalendar::events' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('events', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(talma\widgets\FullCalendar), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('talma\widgets\F...', Array, Array)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('talma\widgets\F...', Array, Array)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(95): yii\BaseYii::createObject(Array)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php(53): yii\base\Widget::widget(Array)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\SiteController))
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2015-04-25 21:08:18 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61650'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429996098.72
+    'REQUEST_TIME' => 1429996098
+]
+2015-04-25 21:09:04 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: events1' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php:43
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render()
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render()
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-04-25 21:09:04 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61671'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429996143.846
+    'REQUEST_TIME' => 1429996143
+]
+2015-04-25 21:09:17 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: talma\widgets\FullCalendar::events' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('events', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(talma\widgets\FullCalendar), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('talma\widgets\F...', Array, Array)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('talma\widgets\F...', Array, Array)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(95): yii\BaseYii::createObject(Array)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php(53): yii\base\Widget::widget(Array)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\SiteController))
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2015-04-25 21:09:17 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61675'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429996157.316
+    'REQUEST_TIME' => 1429996157
+]
+2015-04-25 21:09:46 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: talma\widgets\FullCalendar::event' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('event', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(talma\widgets\FullCalendar), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('talma\widgets\F...', Array, Array)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('talma\widgets\F...', Array, Array)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(95): yii\BaseYii::createObject(Array)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php(53): yii\base\Widget::widget(Array)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\SiteController))
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2015-04-25 21:09:46 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => '537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg\",2592000]\";}'
+    'PHPSESSID' => '7g83ofd17skucspau1nfj2t705'
+    '_csrf' => '5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-goETroVCJlh1qGfJn0h4dvyy3ez0GWI\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=537062f9960a00a5592224b74a93c45233997edeb58eaf4e4b0aaec6fdf2ea9fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22HbBLXdN0xWh-JsQuA_wr8nWL_m2fRHzg%22%2C2592000%5D%22%3B%7D; PHPSESSID=7g83ofd17skucspau1nfj2t705; _csrf=5f37b36ea980c0f51e66319dac6d4d2ab02b30a2d043a5a598f7dee007b36f73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-goETroVCJlh1qGfJn0h4dvyy3ez0GWI%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61684'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429996185.957
+    'REQUEST_TIME' => 1429996185
+]
+2015-04-25 21:10:08 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: talma\widgets\FullCalendar::event' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('event', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(talma\widgets\FullCalendar), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('talma\widgets\F...', Array, Array)
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('talma\widgets\F...', Array, Array)
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Widget.php(95): yii\BaseYii::createObject(Array)
+#7 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\views\site\index.php(53): yii\base\Widget::widget(Array)
+#8 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(325): require('C:\Users\radiof...')
+#9 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\Users\radiof...', Array)
+#10 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\Users\radiof...', Array, Object(frontend\controllers\SiteController))
+#11 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#17 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#18 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2015-04-25 21:10:07 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '61701'
+    'REDIRECT_URL' => '/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1429996207.683
+    'REQUEST_TIME' => 1429996207
+]

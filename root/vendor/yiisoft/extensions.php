@@ -57,4 +57,22 @@ return array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
+  'yiisoft/yii2-jui' => 
+  array (
+    'name' => 'yiisoft/yii2-jui',
+    'version' => '2.0.3.0',
+    'alias' => 
+    array (
+      '@yii/jui' => $vendorDir . '/yiisoft/yii2-jui',
+    ),
+  ),
+  'thiagotalma/yii2-fullcalendar' => 
+  array (
+    'name' => 'thiagotalma/yii2-fullcalendar',
+    'version' => '2.0.0.0',
+    'alias' => 
+    array (
+      '@talma' => $vendorDir . '/thiagotalma/yii2-fullcalendar',
+    ),
+  ),
 );
