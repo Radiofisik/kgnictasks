@@ -42,7 +42,8 @@ class People extends \yii\db\ActiveRecord
             [['firstname', 'lastname', 'middlename'], 'string', 'max' => 300],
             [['phone', 'mphone'], 'string', 'max' => 20],
             [['position'], 'string', 'max' => 1000],
-            [['email'], 'string', 'max' => 200]
+            [['email'], 'string', 'max' => 200],
+            [['isdirector'],'safe']
         ];
     }
 
@@ -107,13 +108,13 @@ class People extends \yii\db\ActiveRecord
                 $org->save();
         }
        
-        public function load($data, $formName = NULL)
+      /*  public function load($data, $formName = NULL)
         {
             if(isset($data['People']['isdirector']))
             {
                 $this->setIsdirector($data['People']['isdirector']);
             }
             return parent::load($data, $formName = NULL);
-        }
+        }*/
     
 }

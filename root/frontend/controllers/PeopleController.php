@@ -110,7 +110,8 @@ class PeopleController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
-
+$a=$model->attributes();
+$b=$model->rules();
         if ($model->load(Yii::$app->request->post())  
              &&   $model->save()
                 ) {
