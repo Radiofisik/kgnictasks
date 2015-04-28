@@ -66,9 +66,9 @@ class Organizations extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getReq()
+    public function getRequisite()
     {
-        return $this->hasOne(Req::className(), ['id' => 'reqid']);
+        return $this->hasOne(Requisite::className(), ['id' => 'reqid']);
     }
 
     /**
@@ -78,4 +78,24 @@ class Organizations extends \yii\db\ActiveRecord
     {
         return $this->hasMany(People::className(), ['organizationid' => 'id']);
     }
+	
+	public static function loadxml($file)
+	{
+	if (file_exists($file)) {
+		$xml = simplexml_load_file($file);
+	//	$xml->
+		 foreach ($xml->Контрагент as $org)
+		{
+			
+				//print_r($org);
+				//echo $org['Наименование'];
+				$model=new Organizations();
+                                $model->fullname=$org['Наименование'];
+                                $model->save();
+			
+			
+		}
+	}
+		//return $xml;
+	}
 }

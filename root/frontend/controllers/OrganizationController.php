@@ -102,6 +102,11 @@ class OrganizationController extends Controller
 
         return $this->redirect(['index']);
     }
+	public function actionLoadxml()
+	{
+		return Organizations::loadxml(__DIR__ ."/1c.xml");
+		
+	}
 
     /**
      * Finds the Organizations model based on its primary key value.
@@ -118,4 +123,5 @@ class OrganizationController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+	
 }

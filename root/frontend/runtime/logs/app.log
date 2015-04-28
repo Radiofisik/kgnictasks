@@ -10518,3 +10518,303 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1429996207.683
     'REQUEST_TIME' => 1429996207
 ]
+2015-04-28 15:01:55 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "organization%2loadxml".' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization%2l...', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-28 15:01:55 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization%2loadxml'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'o6so3n9qheofmor8lvcprdscj6'
+    '_csrf' => '79d72eb2d77bfdf6d63712914c97178374d99fddc42cd024738c8fff4ae34c61a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uEvqEUkqWr6kXTRlHN4qKHdOTJr4rSWs\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=o6so3n9qheofmor8lvcprdscj6; _csrf=79d72eb2d77bfdf6d63712914c97178374d99fddc42cd024738c8fff4ae34c61a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uEvqEUkqWr6kXTRlHN4qKHdOTJr4rSWs%22%3B%7D'
+    'HTTP_X_CLICKONCESUPPORT' => '( .NET CLR 3.5.30729; .NET4.0E)'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '48204'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2loadxml'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2loadxml'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1430233315.054
+    'REQUEST_TIME' => 1430233315
+]
+2015-04-28 15:02:45 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "organization%2loadxml".' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization%2l...', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-28 15:02:45 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization%2loadxml'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'o6so3n9qheofmor8lvcprdscj6'
+    '_csrf' => '79d72eb2d77bfdf6d63712914c97178374d99fddc42cd024738c8fff4ae34c61a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uEvqEUkqWr6kXTRlHN4qKHdOTJr4rSWs\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=o6so3n9qheofmor8lvcprdscj6; _csrf=79d72eb2d77bfdf6d63712914c97178374d99fddc42cd024738c8fff4ae34c61a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uEvqEUkqWr6kXTRlHN4qKHdOTJr4rSWs%22%3B%7D'
+    'HTTP_X_CLICKONCESUPPORT' => '( .NET CLR 3.5.30729; .NET4.0E)'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '48220'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization%2loadxml'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization%2loadxml'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1430233365.233
+    'REQUEST_TIME' => 1430233365
+]
+2015-04-28 15:12:46 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: xml' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php:89
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\OrganizationController->actionLoadxml()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}('???', '???')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('???')
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('???', '???')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('???', '???')
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest('???')
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2015-04-28 15:12:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/loadxml'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'o6so3n9qheofmor8lvcprdscj6'
+    '_csrf' => '79d72eb2d77bfdf6d63712914c97178374d99fddc42cd024738c8fff4ae34c61a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uEvqEUkqWr6kXTRlHN4qKHdOTJr4rSWs\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=o6so3n9qheofmor8lvcprdscj6; _csrf=79d72eb2d77bfdf6d63712914c97178374d99fddc42cd024738c8fff4ae34c61a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uEvqEUkqWr6kXTRlHN4qKHdOTJr4rSWs%22%3B%7D'
+    'HTTP_X_CLICKONCESUPPORT' => '( .NET CLR 3.5.30729; .NET4.0E)'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '48385'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization/loadxml'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization/loadxml'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1430233966.134
+    'REQUEST_TIME' => 1430233966
+]
+2015-04-28 15:15:28 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: xml' in C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\models\Organizations.php:89
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\OrganizationController->actionLoadxml()
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\InlineAction.php:55}('???', '???')
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('???')
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('???', '???')
+#4 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('???', '???')
+#5 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest('???')
+#6 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2015-04-28 15:15:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'organization/loadxml'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'o6so3n9qheofmor8lvcprdscj6'
+    '_csrf' => '79d72eb2d77bfdf6d63712914c97178374d99fddc42cd024738c8fff4ae34c61a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uEvqEUkqWr6kXTRlHN4qKHdOTJr4rSWs\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=o6so3n9qheofmor8lvcprdscj6; _csrf=79d72eb2d77bfdf6d63712914c97178374d99fddc42cd024738c8fff4ae34c61a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uEvqEUkqWr6kXTRlHN4qKHdOTJr4rSWs%22%3B%7D'
+    'HTTP_X_CLICKONCESUPPORT' => '( .NET CLR 3.5.30729; .NET4.0E)'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '48414'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization/loadxml'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization/loadxml'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1430234127.82
+    'REQUEST_TIME' => 1430234127
+]
+2015-04-28 15:41:09 [::1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: organization/xmlload' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('xmlload', Array)
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('organization/xm...', Array)
+#2 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\Users\radiofisik\Desktop\kgnictasks\root\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\radiofisik\Desktop\kgnictasks\root\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-28 15:41:09 [::1][2][-][info][application] $_GET = [
+    'r' => 'organization/xmlload'
+]
+
+$_COOKIE = [
+    '_csrf' => '9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn\";}'
+    'PHPSESSID' => 'b0loqsd5bqrlm62ma4b8uk2e02'
+    'XDEBUG_SESSION' => 'netbeans-xdebug'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8082'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=9a7b4849abb5148ceae06e4204d89669b3ede33cc3d915bf646b48aff1b8b450a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IwN_2A3H5ILUwafbAtMS3jHQxP-iNHXn%22%3B%7D; PHPSESSID=b0loqsd5bqrlm62ma4b8uk2e02; XDEBUG_SESSION=netbeans-xdebug'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\app\\atolkov\\product\\11.2.0\\client_1;C:\\app\\atolkov\\product\\11.2.0\\client_1\\bin;C:\\app\\NDubrovskiy\\product\\11.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\Windows System Resource Manager\\bin;C:\\Windows\\idmu\\common;C:\\net-snmp\\bin;D:\\JAVA\\apache-maven-3.2.1\\bin;D:\\JAVA\\gradle-2.0\\bin;C:\\Program Files (x86)\\Java\\jdk1.8.0_05\\bin;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x32;C:\\Program Files\\Aladdin\\eToken\\PKIClient\\x64;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Jar2Exe Wizard\\;C:\\Users\\radiofisik\\Desktop\\kgnictasks\\php'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (Win32) PHP/5.4.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8082'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/radiofisik/Desktop/kgnictasks/root'
+    'SERVER_ADMIN' => 'mail@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/radiofisik/Desktop/kgnictasks/root/frontend/web/index.php'
+    'REMOTE_PORT' => '48728'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=organization/xmlload'
+    'REQUEST_URI' => '/frontend/web/index.php?r=organization/xmlload'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1430235669.595
+    'REQUEST_TIME' => 1430235669
+]
