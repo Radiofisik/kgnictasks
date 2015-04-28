@@ -1,9 +1,0 @@
-::1 - - [28/Apr/2015:10:44:02 +0200] "GET /frontend/web/assets/12b1b689/lib/moment.min.js HTTP/1.1" 304 -
-::1 - - [28/Apr/2015:10:44:02 +0200] "GET /frontend/web/assets/12b1b689/fullcalendar.css HTTP/1.1" 304 -
-::1 - - [28/Apr/2015:10:44:02 +0200] "GET /frontend/web/assets/c8de09a2/themes/smoothness/jquery-ui.css HTTP/1.1" 304 -
-::1 - - [28/Apr/2015:10:44:02 +0200] "GET /frontend/web/assets/c8de09a2/jquery-ui.js HTTP/1.1" 304 -
-::1 - - [28/Apr/2015:10:44:02 +0200] "GET /frontend/web/assets/12b1b689/fullcalendar.print.css HTTP/1.1" 304 -
-::1 - - [28/Apr/2015:10:44:00 +0200] "GET / HTTP/1.1" 200 11860
-::1 - - [28/Apr/2015:10:44:02 +0200] "GET /frontend/web/assets/12b1b689/fullcalendar.js HTTP/1.1" 304 -
-::1 - - [28/Apr/2015:10:44:02 +0200] "GET /frontend/web/assets/12b1b689/lang/ru.js HTTP/1.1" 304 -
-::1 - - [28/Apr/2015:10:44:02 +0200] "GET /frontend/web/index.php?r=debug%2Fdefault%2Ftoolbar&tag=553f48514c3e7 HTTP/1.1" 200 19966
