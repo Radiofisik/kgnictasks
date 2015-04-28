@@ -41,3 +41,13 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+#USBwebserver
+/apache2
+/lang
+/php
+/phpmyadmin
+/mysql/bin
+usbwebserver.exe
+
