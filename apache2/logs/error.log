@@ -1,5 +1,5 @@
-[Mon Apr 27 09:06:42.612683 2015] [mpm_winnt:notice] [pid 5208:tid 464] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Mon Apr 27 09:06:42.612683 2015] [mpm_winnt:notice] [pid 5208:tid 464] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Mon Apr 27 09:06:42.612683 2015] [core:notice] [pid 5208:tid 464] AH00094: Command line: 'C:\\Users\\radiofisik\\Desktop\\kgnictasks/apache2/bin/httpd_usbwv8.exe -d C:/Users/radiofisik/Desktop/kgnictasks/apache2'
-[Mon Apr 27 09:06:42.697691 2015] [mpm_winnt:notice] [pid 5208:tid 464] AH00418: Parent: Created child process 2860
-[Mon Apr 27 09:06:43.555777 2015] [mpm_winnt:notice] [pid 2860:tid 484] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 28 10:43:52.119295 2015] [mpm_winnt:notice] [pid 5720:tid 464] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Tue Apr 28 10:43:52.119295 2015] [mpm_winnt:notice] [pid 5720:tid 464] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Tue Apr 28 10:43:52.119295 2015] [core:notice] [pid 5720:tid 464] AH00094: Command line: 'C:\\Users\\radiofisik\\Desktop\\kgnictasks/apache2/bin/httpd_usbwv8.exe -d C:/Users/radiofisik/Desktop/kgnictasks/apache2'
+[Tue Apr 28 10:43:52.121295 2015] [mpm_winnt:notice] [pid 5720:tid 464] AH00418: Parent: Created child process 13176
+[Tue Apr 28 10:43:52.669295 2015] [mpm_winnt:notice] [pid 13176:tid 484] AH00354: Child: Starting 64 worker threads.

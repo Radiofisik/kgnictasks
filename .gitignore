@@ -50,4 +50,8 @@ Temporary Items
 /phpmyadmin
 /mysql/bin
 usbwebserver.exe
+*.log
+*.pid
+*.err
+
 
