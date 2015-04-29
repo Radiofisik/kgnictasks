@@ -14,7 +14,7 @@ use Yii;
  * @property integer $directorid
  *
  * @property People $director
- * @property Req $req
+ * @property Requisite $requisite
  * @property People[] $peoples
  */
 class Organizations extends \yii\db\ActiveRecord
@@ -70,6 +70,8 @@ class Organizations extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Requisite::className(), ['id' => 'reqid']);
     }
+    
+ 
 
     /**
      * @return \yii\db\ActiveQuery
@@ -89,9 +91,31 @@ class Organizations extends \yii\db\ActiveRecord
 			
 				//print_r($org);
 				//echo $org['Наименование'];
-				$model=new Organizations();
-                                $model->fullname=$org['Наименование'];
+                               // static::findOne($condition)
+                     $model=new Requisite();
+                      $model->inn=(string)$org['ИНН'];
+                      $model->kpp=(string)$org['КПП'];
+                      $model->account=trim((string)$org['Счет']);
+                      $model->bank=(string)$org['Банк'];
+                      if($model->validate())
+                                {
                                 $model->save();
+                                $reqid=$model->id;
+                                
+                                $model=new Organizations();
+                                $model->name=(string)$org['Наименование'];
+                                $model->fullname=(string)$org['Наименование'];
+                                $model->reqid=$reqid;
+                                if($model->validate())
+                                {
+                                $model->save();
+                                }
+                         
+                                }
+                     
+				
+                               
+                    
 			
 			
 		}

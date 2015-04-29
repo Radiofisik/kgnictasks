@@ -1,0 +1,28 @@
+[Wed Apr 29 15:16:27.622634 2015] [mpm_winnt:notice] [pid 12780:tid 464] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Wed Apr 29 15:16:27.622634 2015] [mpm_winnt:notice] [pid 12780:tid 464] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Wed Apr 29 15:16:27.622634 2015] [core:notice] [pid 12780:tid 464] AH00094: Command line: 'C:\\Users\\radiofisik\\Desktop\\kgnictasks/apache2/bin/httpd_usbwv8.exe -d C:/Users/radiofisik/Desktop/kgnictasks/apache2'
+[Wed Apr 29 15:16:27.624634 2015] [mpm_winnt:notice] [pid 12780:tid 464] AH00418: Parent: Created child process 788
+[Wed Apr 29 15:16:28.187634 2015] [mpm_winnt:notice] [pid 788:tid 484] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 29 15:23:00.222634 2015] [:error] [pid 788:tid 1036] [client ::1:28402] PHP Fatal error:  Maximum execution time of 0 seconds exceeded in C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\vendor\\yiisoft\\yii2\\base\\ErrorHandler.php on line 160, referer: http://localhost:8082/frontend/web/index.php
+[Wed Apr 29 15:23:00.222634 2015] [:error] [pid 788:tid 1036] [client ::1:28402] PHP Stack trace:, referer: http://localhost:8082/frontend/web/index.php
+[Wed Apr 29 15:23:00.222634 2015] [:error] [pid 788:tid 1036] [client ::1:28402] PHP   1. yii\\base\\ErrorHandler->handleFatalError() C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\vendor\\yiisoft\\yii2\\base\\ErrorHandler.php:0, referer: http://localhost:8082/frontend/web/index.php
+[Wed Apr 29 15:23:00.248634 2015] [:error] [pid 788:tid 1040] [client ::1:28364] PHP Fatal error:  Maximum execution time of 0 seconds exceeded in C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\frontend\\web\\index.php on line 2
+[Wed Apr 29 15:23:00.248634 2015] [:error] [pid 788:tid 1040] [client ::1:28364] PHP Stack trace:
+[Wed Apr 29 15:23:00.248634 2015] [:error] [pid 788:tid 1040] [client ::1:28364] PHP   1. {main}() C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\frontend\\web\\index.php:0
+[Wed Apr 29 15:31:50.493634 2015] [:error] [pid 788:tid 1032] [client ::1:28608] PHP Fatal error:  Maximum execution time of 0 seconds exceeded in C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\frontend\\web\\index.php on line 2
+[Wed Apr 29 15:31:50.493634 2015] [:error] [pid 788:tid 1032] [client ::1:28608] PHP Stack trace:
+[Wed Apr 29 15:31:50.493634 2015] [:error] [pid 788:tid 1032] [client ::1:28608] PHP   1. {main}() C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\frontend\\web\\index.php:0
+[Wed Apr 29 17:23:00.647634 2015] [:error] [pid 788:tid 1040] [client ::1:30205] PHP Parse error:  syntax error, unexpected '}' in C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\frontend\\models\\Organizations.php on line 108
+[Wed Apr 29 17:23:00.647634 2015] [:error] [pid 788:tid 1040] [client ::1:30205] PHP Stack trace:
+[Wed Apr 29 17:23:00.647634 2015] [:error] [pid 788:tid 1040] [client ::1:30205] PHP   1. {main}() C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\frontend\\web\\index.php:0
+[Wed Apr 29 17:23:00.647634 2015] [:error] [pid 788:tid 1040] [client ::1:30205] PHP   2. yii\\base\\Application->run() C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\frontend\\web\\index.php:18
+[Wed Apr 29 17:23:00.647634 2015] [:error] [pid 788:tid 1040] [client ::1:30205] PHP   3. yii\\web\\Application->handleRequest($request = *uninitialized*) C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\vendor\\yiisoft\\yii2\\base\\Application.php:375
+[Wed Apr 29 17:23:00.648634 2015] [:error] [pid 788:tid 1040] [client ::1:30205] PHP   4. yii\\base\\Module->runAction($route = *uninitialized*, $params = *uninitialized*) C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\vendor\\yiisoft\\yii2\\web\\Application.php:83
+[Wed Apr 29 17:23:00.648634 2015] [:error] [pid 788:tid 1040] [client ::1:30205] PHP   5. yii\\base\\Controller->runAction($id = *uninitialized*, $params = *uninitialized*) C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\vendor\\yiisoft\\yii2\\base\\Module.php:455
+[Wed Apr 29 17:23:00.648634 2015] [:error] [pid 788:tid 1040] [client ::1:30205] PHP   6. yii\\base\\InlineAction->runWithParams($params = *uninitialized*) C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\vendor\\yiisoft\\yii2\\base\\Controller.php:151
+[Wed Apr 29 17:23:00.648634 2015] [:error] [pid 788:tid 1040] [client ::1:30205] PHP   7. call_user_func_array:{C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\vendor\\yiisoft\\yii2\\base\\InlineAction.php:55}(*uninitialized*, *uninitialized*) C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\vendor\\yiisoft\\yii2\\base\\InlineAction.php:55
+[Wed Apr 29 17:23:00.648634 2015] [:error] [pid 788:tid 1040] [client ::1:30205] PHP   8. frontend\\controllers\\OrganizationController->actionLoadxml() C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\vendor\\yiisoft\\yii2\\base\\InlineAction.php:55
+[Wed Apr 29 17:23:00.648634 2015] [:error] [pid 788:tid 1040] [client ::1:30205] PHP   9. yii\\BaseYii::autoload($className = *uninitialized*) C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\vendor\\yiisoft\\yii2\\base\\InlineAction.php:107
+[Wed Apr 29 17:49:37.424634 2015] [:error] [pid 788:tid 988] [client ::1:30833] PHP Fatal error:  Maximum execution time of 0 seconds exceeded in C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\frontend\\web\\index.php on line 2
+[Wed Apr 29 17:49:37.424634 2015] [:error] [pid 788:tid 988] [client ::1:30833] PHP Stack trace:
+[Wed Apr 29 17:49:37.424634 2015] [:error] [pid 788:tid 988] [client ::1:30833] PHP   1. {main}() C:\\Users\\radiofisik\\Desktop\\kgnictasks\\root\\frontend\\web\\index.php:0

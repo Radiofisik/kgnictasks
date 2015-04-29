@@ -32,8 +32,7 @@ class Requisite extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['organizationid', 'inn', 'kpp', 'ogrn', 'bank', 'account'], 'required'],
-            [['organizationid'], 'integer'],
+            [[ 'inn', 'kpp', 'bank', 'account'], 'required'],
             [['inn'], 'string', 'max' => 10],
             [['kpp'], 'string', 'max' => 9],
             [['ogrn', 'account'], 'string', 'max' => 20],
